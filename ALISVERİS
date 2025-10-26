@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	string alisverisListesi[4] = {
+		"Elma", "Sut", "Ekmek", "Peynir"
+	};
+
+	cout << "Alisveris Listem:" << endl;
+
+	for (int i = 0; i < 4; i++) {
+		cout << alisverisListesi[i] << endl;
+	}
+	return 0;
+}
